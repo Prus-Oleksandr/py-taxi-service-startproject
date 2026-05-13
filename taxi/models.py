@@ -37,4 +37,5 @@ class Driver(AbstractUser):
 
     class Meta:
         db_table = "driver"
-        verbose_name = "drivers"
+        verbose_name = "driver"
+        verbose_name_plural = "drivers"
